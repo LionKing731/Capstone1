@@ -11,15 +11,24 @@ body{
 
 .material-symbols-outlined{
     color:#244275;
+    font-size: 36px;
 }
+
 
 .home-head input{
     border: 2px solid #244275;
     background-color: antiquewhite;
+    text-align: center;
     color:#244275;
     font-size: 2vw;
     border-radius: 6rem;
     padding: 0.1em;
+}
+
+::placeholder{
+    color:#244275;
+    opacity: 0.5;
+    font-family: 'Lilita One';
 }
 
 .home-head{
@@ -39,12 +48,20 @@ body{
     align-items: center;
 }
 
+.home-flex *{
+    vertical-align: bottom;
+}
+
 .head-ul-one{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
     margin: 0.5rem;
+}
+
+.head-ul-one *{
+    vertical-align: middle;
 }
 
 .head-ul-two{
@@ -126,7 +143,7 @@ h1{
     font-family: 'Pacifico';
     color:#F589D0;
     text-shadow:  0.5px 1.5px #244275;
-    background-image: url('../images/butterfly\ background.png');
+    background-image: url('../images/butterfly-background.png');
     background-repeat: repeat;
     background-size: contain;
     background-color: antiquewhite;
@@ -143,6 +160,7 @@ h1{
 
 #recents{
     font-family: 'Lilita One';
+    text-shadow: 0.5px 1px antiquewhite;
     margin: 2rem;
 }
 
@@ -177,19 +195,20 @@ h1{
 
 .carousel-box{
     margin: 2rem;
-    height: 500px;
+    height: 55vh;
 }
 
 
 .carousel .carousel-item{
-    height: 400px;
+    height: 55vh;
     width: 100%;
 }
 
 .carousel-item img{
-    object-fit: fill;
+    object-fit: contain;
     object-position: initial;
-    height: 400px;
+    height: 55vh;
+    width: 100%;
 }
 
 
@@ -201,15 +220,76 @@ h1{
 }
 
 /*REGISTRATION PAGE*/
+#register-page{
+
+}
 
 .content-reg{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    margin: 7rem 2rem;
+}
+
+.form-one-reg input{
+    text-align: center;
+    background-color:#86c1ee;
+    border: 2px solid #244275;
+    color:#244275;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 .login-one{
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #244275;
+    border-radius: 1rem;
+    background-color:antiquewhite;
+    padding: 1.5rem;
+}
+
+.label{
+    padding: 0.5rem;
+}
+
+.btn{
+    background-color: #F589D0;
+    border: 2px solid #244275;
+    color: #244275;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.reg-headings{
+    font-family: 'Lilita One';
+    color:#244275;
+    text-shadow: 0.5px 1px #F589D0
+}
+
+.login-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #244275;
+    border-radius: 1rem;
+    background-color:antiquewhite;
+    padding: 1.5rem;
+}
+
+.login-two a{
+    font-family: 'Lilita One';
+    text-decoration: none;
+    color:#244275;
+    padding: 0.3rem;
+    background-color:#F589D0;
+}
+
+.login-two p{
+    font-family: 'Lilita One';
+    text-shadow: 0.5px 1px #F589D0;
+    color:#244275
 }
 
 /* STORE PAGE */
