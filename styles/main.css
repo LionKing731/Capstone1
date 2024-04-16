@@ -190,7 +190,7 @@ h1{
 .card-text{
     font-family: 'Lilita One';
     color:#244275;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 .carousel-box{
@@ -325,7 +325,37 @@ h1{
 
 /* STORE PAGE */
 
-.store .content{
+.content-store{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 4rem;
+}
+
+.row{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col-md-6{
+    margin: 2.5rem;
+    padding: 0.5rem;
+}
+
+.btn-store{
+    font-family: 'Lilita One';
+    margin: 2.5rem 3.5rem;
+}
+
+.btn-store:hover{
+    background-color:antiquewhite;
+    border:2px solid #F589D0;
+    color:#244275;
+    cursor: grab;
+}
+
+.card-title{
+    font-family: 'Lilita One';
+    color:#244275
 }
