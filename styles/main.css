@@ -220,9 +220,6 @@ h1{
 }
 
 /*REGISTRATION PAGE*/
-#register-page{
-
-}
 
 .content-reg{
     display: flex;
@@ -290,6 +287,40 @@ h1{
     font-family: 'Lilita One';
     text-shadow: 0.5px 1px #F589D0;
     color:#244275
+}
+
+/* LOGIN PAGE */
+
+.signup-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #244275;
+    border-radius: 1rem;
+    background-color:antiquewhite;
+    padding: 1.5rem;
+}
+
+.label input{
+    text-align: center;
+    background-color:#86c1ee;
+    border: 2px solid #244275;
+    color:#244275;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+
+.form-check{
+    margin: 0.5rem;
+    color: #244275;
+    font-family: 'Lilita One';
+}
+
+.signup-foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
 }
 
 /* STORE PAGE */
