@@ -359,3 +359,35 @@ h1{
     font-family: 'Lilita One';
     color:#244275
 }
+
+/* CART PAGE */
+
+.content-cart{
+    margin: 10rem 2rem;
+}
+
+.table-striped{
+    border: 2px solid #244275;
+}
+
+.cart-foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.total-row{
+   font-family: 'Lilita One';
+}
+
+.btn-cart{
+    font-family: 'Lilita One';
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.btn-cart:hover{
+    background-color: antiquewhite;
+    color:#F589D0;
+    border: 2px solid #F589D0;
+}
