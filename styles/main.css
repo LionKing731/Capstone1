@@ -363,18 +363,33 @@ h1{
 /* CART PAGE */
 
 .content-cart{
-    margin: 10rem 2rem;
+    /* margin: 10rem 2rem; */
+}
+
+.contact-info, .shipping-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    border: 2px solid #244275;
+    border-radius: 1rem;
+    background-color:antiquewhite;
+    padding: 1.5rem;
+}
+
+.form-select{
+    margin: 0.6rem;
 }
 
 .table-striped{
     border: 2px solid #244275;
 }
 
-.cart-foot{
+/* .cart-foot{
     width: 100%;
     position: fixed;
     bottom: 0px;
-}
+} */
 
 .total-row{
    font-family: 'Lilita One';
