@@ -383,10 +383,6 @@ h1{
 
 /* CART PAGE */
 
-.content-cart{
-    /* margin: 10rem 2rem; */
-}
-
 .contact-info, .shipping-info{
     display: flex;
     flex-direction: column;
@@ -426,4 +422,46 @@ h1{
     background-color: antiquewhite;
     color:#F589D0;
     border: 2px solid #F589D0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 574px){
+    .carousel-box{
+        visibility: hidden;
+        display: none;
+    }
+
+    .search-three, .search-four{
+        visibility: hidden;
+        display: none;
+    }
+
+    .card-text{
+        font-size: 3vw;
+    }
+
+    .head-ul-two a{
+        font-size: 3vw;
+    }
+
+    .content-reg{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .search-four{
+        visibility: hidden;
+        display:none;
+    }
+
+    .card-text{
+        font-size: 2vw;
+    }
+
+    .head-ul-two a{
+        font-size: 3vw;
+    }
 }
